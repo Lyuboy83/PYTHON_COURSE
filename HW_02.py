@@ -39,6 +39,6 @@
 
 # N = int(input('Введите число: '))
 # i = 2
-# while N >= (2 ** i) :
+# while N >= (2 ** i):
 #     print(2 ** i)
 #     i += 1
