@@ -98,12 +98,12 @@
 #     {" VIII ": " S007 "},
 # ]
 
-# # s = set()
-# # for i in dic:
-# #     for k, v in i.items():
-# #         s.add(v)
+# s = set()
+# for i in dic:
+#     for k, v in i.items():
+#         s.add(v)
 
-# # print(s)
+# print(s)
 
 # s = set()
 # for i in dic:
