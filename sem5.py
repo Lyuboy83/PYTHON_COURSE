@@ -9,9 +9,7 @@
 # fibonacci_array = [fibonacci(n) for _ in range(n)]
 # print(f'{n} число Фибоначчи равняется {fibonacci_array[n-1]}')
 
-# 10:28
-# Гамид Касымов
-# Стас, давай ты пока продемонстрируй.
+
 
 
 # 10:30
