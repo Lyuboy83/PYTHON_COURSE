@@ -79,20 +79,20 @@
 # увеличивая значение divisor на 1, и продолжает проверку.'''
 
 
-# def simple(n, divisor=2):
-#     if n <= 1:
-#         return False
-#     elif n == 2:
-#         return True
-#     elif n % divisor == 0:
-#         return False
-#     elif divisor * divisor > n:
-#         return True
-#     else:
-#         return simple(n, divisor + 1)
+def simple(n, divisor=2):
+    if n <= 1:
+        return False
+    elif n == 2:
+        return True
+    elif n % divisor == 0:
+        return False
+    elif divisor * divisor > n:
+        return True
+    else:
+        return simple(n, divisor + 1)
 
-#     num = abs(int(input('Input: ')))
-# print('yes' if simple(num) else 'no')
+    num = abs(int(input('Input: ')))
+print('yes' if simple(num) else 'no')
 
 
 # 37
